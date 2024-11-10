@@ -1,0 +1,18 @@
+{
+    "msync": {
+        "exclusive_flags": [
+            "MS_SYNC",
+            "MS_ASYNC"
+        ],
+        "dependent_flags": {
+            "MS_INVALIDATE": "MS_SYNC or MS_ASYNC"
+        },
+        "combinable_flags": [
+            "MS_INVALIDATE"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

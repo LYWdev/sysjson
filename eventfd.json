@@ -1,0 +1,19 @@
+{
+    "eventfd": {
+        "exclusive_flags": [],
+        "dependent_flags": {
+            "EFD_CLOEXEC": "eventfd2",
+            "EFD_NONBLOCK": "eventfd2",
+            "EFD_SEMAPHORE": "eventfd2"
+        },
+        "combinable_flags": [
+            "EFD_CLOEXEC",
+            "EFD_NONBLOCK",
+            "EFD_SEMAPHORE"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

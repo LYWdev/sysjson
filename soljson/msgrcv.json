@@ -1,0 +1,19 @@
+{
+    "msgrcv": {
+        "exclusive_flags": [
+            "none"
+        ],
+        "dependent_flags": {
+            "MSG_NOERROR": "none",
+            "IPC_NOWAIT": "none"
+        },
+        "combinable_flags": [
+            "MSG_NOERROR",
+            "IPC_NOWAIT"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

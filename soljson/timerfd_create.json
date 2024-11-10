@@ -1,0 +1,23 @@
+{
+    "timerfd_create": {
+        "exclusive_flags": [],
+        "dependent_flags": {},
+        "combinable_flags": [
+            "TFD_NONBLOCK",
+            "TFD_CLOEXEC"
+        ],
+        "singleonly_flags": []
+    },
+    "timerfd_settime": {
+        "exclusive_flags": [],
+        "dependent_flags": {
+            "TFD_TIMER_CANCEL_ON_SET": "TFD_TIMER_ABSTIME"
+        },
+        "combinable_flags": [
+            "TFD_TIMER_ABSTIME",
+            "TFD_TIMER_CANCEL_ON_SET"
+        ],
+        "singleonly_flags": []
+    }
+}
+

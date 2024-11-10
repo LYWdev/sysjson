@@ -1,0 +1,20 @@
+{
+    "pipe2": {
+        "exclusive_flags": [
+            "none"
+        ],
+        "dependent_flags": {
+            "O_NOTIFICATION_PIPE": "CONFIG_WATCH_QUEUE"
+        },
+        "combinable_flags": [
+            "O_CLOEXEC",
+            "O_DIRECT",
+            "O_NONBLOCK",
+            "O_NOTIFICATION_PIPE"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

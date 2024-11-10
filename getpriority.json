@@ -1,0 +1,13 @@
+{
+    "getpriority": {
+        "exclusive_flags": [],
+        "dependent_flags": [],
+        "combinable_flags": [],
+        "singleonly_flags": [
+            "PRIO_PROCESS",
+            "PRIO_PGRP",
+            "PRIO_USER"
+        ]
+    }
+}
+

@@ -1,0 +1,26 @@
+{
+    "mbind": {
+        "exclusive_flags": [
+            {
+                "MPOL_F_STATIC_NODES": ["MPOL_F_RELATIVE_NODES"],
+                "MPOL_INTERLEAVE": ["MPOL_BIND", "MPOL_PREFERRED", "MPOL_LOCAL"],
+                "MPOL_BIND": ["MPOL_INTERLEAVE", "MPOL_PREFERRED", "MPOL_LOCAL"],
+                "MPOL_PREFERRED": ["MPOL_BIND", "MPOL_INTERLEAVE", "MPOL_LOCAL"],
+                "MPOL_LOCAL": ["MPOL_BIND", "MPOL_INTERLEAVE", "MPOL_PREFERRED"]
+            }
+        ],
+        "dependent_flags": {
+            "MPOL_MF_MOVE_ALL": ["MPOL_MF_STRICT"]
+        },
+        "combinable_flags": [
+            "MPOL_MF_MOVE",
+            "MPOL_MF_MOVE_ALL",
+            "MPOL_MF_STRICT",
+            "MPOL_F_NUMA_BALANCING"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

@@ -1,0 +1,20 @@
+{
+    "get_mempolicy": {
+        "exclusive_flags": [
+            {
+                "MPOL_F_MEMS_ALLOWED": ["MPOL_F_ADDR", "MPOL_F_NODE"]
+            }
+        ],
+        "dependent_flags": {
+            "MPOL_F_NODE": ["MPOL_INTERLEAVE", "MPOL_WEIGHTED_INTERLEAVE"]
+        },
+        "combinable_flags": [
+            "MPOL_F_ADDR",
+            "MPOL_F_NODE"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

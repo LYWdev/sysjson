@@ -1,0 +1,12 @@
+{
+    "inotify_init": {
+        "exclusive_flags": [],
+        "dependent_flags": [],
+        "combinable_flags": [
+            "IN_NONBLOCK",
+            "IN_CLOEXEC"
+        ],
+        "singleonly_flags": []
+    }
+}
+

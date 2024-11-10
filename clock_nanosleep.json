@@ -1,0 +1,16 @@
+{
+    "clock_nanosleep": {
+        "exclusive_flags": [],
+        "dependent_flags": {
+            "TIMER_ABSTIME": "absolute time specification"
+        },
+        "combinable_flags": [
+            "TIMER_ABSTIME",
+            "0"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

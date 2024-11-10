@@ -1,0 +1,22 @@
+{
+    "set_mempolicy": {
+        "exclusive_flags": [
+            "MPOL_F_STATIC_NODES",
+            "MPOL_F_RELATIVE_NODES"
+        ],
+        "dependent_flags": {
+            "MPOL_F_NUMA_BALANCING": "MPOL_BIND"
+        },
+        "combinable_flags": [
+            "MPOL_BIND",
+            "MPOL_INTERLEAVE",
+            "MPOL_WEIGHTED_INTERLEAVE",
+            "MPOL_PREFERRED",
+            "MPOL_LOCAL"
+        ],
+        "singleonly_flags": [
+            "MPOL_DEFAULT"
+        ]
+    }
+}
+

@@ -1,0 +1,20 @@
+{
+    "mremap": {
+        "exclusive_flags": [
+            "none"
+        ],
+        "dependent_flags": {
+            "MREMAP_FIXED": "MREMAP_MAYMOVE",
+            "MREMAP_DONTUNMAP": "MREMAP_MAYMOVE"
+        },
+        "combinable_flags": [
+            "MREMAP_MAYMOVE",
+            "MREMAP_FIXED",
+            "MREMAP_DONTUNMAP"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

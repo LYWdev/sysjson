@@ -1,0 +1,32 @@
+{
+    "mkdir": {
+        "exclusive_flags": [
+            "none"
+        ],
+        "dependent_flags": {
+            "none": "none"
+        },
+        "combinable_flags": [
+            "mode_t permissions (e.g., S_IRWXU, S_IRWXG, S_IRWXO)"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    },
+    "mkdirat": {
+        "exclusive_flags": [
+            "none"
+        ],
+        "dependent_flags": {
+            "none": "none"
+        },
+        "combinable_flags": [
+            "mode_t permissions (e.g., S_IRWXU, S_IRWXG, S_IRWXO)",
+            "AT_FDCWD"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

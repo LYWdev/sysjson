@@ -1,0 +1,17 @@
+{
+    "mlock2": {
+        "exclusive_flags": [
+            "none"
+        ],
+        "dependent_flags": {
+            "MLOCK_ONFAULT": "none"
+        },
+        "combinable_flags": [
+            "MLOCK_ONFAULT"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

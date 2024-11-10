@@ -1,0 +1,12 @@
+{
+    "socketpair": {
+        "exclusive_flags": [],
+        "dependent_flags": {},
+        "combinable_flags": [
+            "SOCK_NONBLOCK",
+            "SOCK_CLOEXEC"
+        ],
+        "singleonly_flags": []
+    }
+}
+

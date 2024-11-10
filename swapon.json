@@ -1,0 +1,12 @@
+{
+    "swapon": {
+        "exclusive_flags": [],
+        "dependent_flags": {},
+        "combinable_flags": [
+            "SWAP_FLAG_PREFER",
+            "SWAP_FLAG_DISCARD"
+        ],
+        "singleonly_flags": []
+    }
+}
+

@@ -1,0 +1,12 @@
+{
+    "signalfd": {
+        "exclusive_flags": [],
+        "dependent_flags": {},
+        "combinable_flags": [
+            "SFD_NONBLOCK",
+            "SFD_CLOEXEC"
+        ],
+        "singleonly_flags": []
+    }
+}
+

@@ -1,0 +1,15 @@
+{
+    "epoll_create": {
+        "exclusive_flags": [],
+        "dependent_flags": {
+            "EPOLL_CLOEXEC": "epoll_create1"
+        },
+        "combinable_flags": [
+            "EPOLL_CLOEXEC"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

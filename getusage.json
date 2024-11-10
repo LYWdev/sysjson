@@ -1,0 +1,19 @@
+{
+    "getrusage": {
+        "exclusive_flags": [
+            {
+                "RUSAGE_SELF": ["RUSAGE_CHILDREN", "RUSAGE_THREAD"],
+                "RUSAGE_CHILDREN": ["RUSAGE_SELF", "RUSAGE_THREAD"],
+                "RUSAGE_THREAD": ["RUSAGE_SELF", "RUSAGE_CHILDREN"]
+            }
+        ],
+        "dependent_flags": [],
+        "combinable_flags": [],
+        "singleonly_flags": [
+            "RUSAGE_SELF",
+            "RUSAGE_CHILDREN",
+            "RUSAGE_THREAD"
+        ]
+    }
+}
+

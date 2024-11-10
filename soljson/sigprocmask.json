@@ -1,0 +1,18 @@
+{
+    "sigprocmask": {
+        "exclusive_flags": [],
+        "dependent_flags": {
+            "SIG_UNBLOCK": "SIG_BLOCK or SIG_SETMASK",
+            "SIG_SETMASK": "SIG_BLOCK or SIG_UNBLOCK",
+            "SIG_BLOCK": "SIG_UNBLOCK or SIG_SETMASK"
+        },
+        "combinable_flags": [
+            "SIG_BLOCK",
+            "SIG_UNBLOCK",
+            "SIG_SETMASK"
+        ],
+        "singleonly_flags": [],
+        "no_relation_flags": []
+    }
+}
+

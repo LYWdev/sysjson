@@ -1,0 +1,25 @@
+{
+    "mprotect": {
+        "exclusive_flags": [
+            "PROT_GROWSUP",
+            "PROT_GROWSDOWN"
+        ],
+        "dependent_flags": {
+            "PROT_EXEC": "READ_IMPLIES_EXEC",
+            "PROT_READ": "READ_IMPLIES_EXEC or PROT_WRITE",
+            "pkey": "pkey_alloc(2)"
+        },
+        "combinable_flags": [
+            "PROT_READ",
+            "PROT_WRITE",
+            "PROT_EXEC",
+            "PROT_NONE",
+            "PROT_SEM",
+            "PROT_SAO"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

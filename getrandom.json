@@ -1,0 +1,15 @@
+{
+    "getrandom": {
+        "exclusive_flags": [
+            {
+                "GRND_RANDOM": ["GRND_NONBLOCK"]
+            }
+        ],
+        "dependent_flags": [],
+        "combinable_flags": [
+            "GRND_RANDOM",
+            "GRND_NONBLOCK"
+        ],
+        "singleonly_flags": []
+    }
+}

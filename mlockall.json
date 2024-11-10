@@ -1,0 +1,19 @@
+{
+    "mlockall": {
+        "exclusive_flags": [
+            "none"
+        ],
+        "dependent_flags": {
+            "MCL_ONFAULT": "MCL_CURRENT or MCL_FUTURE"
+        },
+        "combinable_flags": [
+            "MCL_CURRENT",
+            "MCL_FUTURE",
+            "MCL_ONFAULT"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

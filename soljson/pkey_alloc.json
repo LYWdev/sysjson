@@ -1,0 +1,11 @@
+{
+    "pkey_alloc": {
+        "exclusive_flags": [],
+        "dependent_flags": [],
+        "combinable_flags": [
+            "PKEY_DISABLE_ACCESS",
+            "PKEY_DISABLE_WRITE"
+        ],
+        "singleonly_flags": []
+    }
+}

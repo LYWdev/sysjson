@@ -1,0 +1,19 @@
+{
+    "getitimer": {
+        "exclusive_flags": [
+            "none"
+        ],
+        "dependent_flags": {
+            "none": "none"
+        },
+        "combinable_flags": [
+            "ITIMER_REAL",
+            "ITIMER_VIRTUAL",
+            "ITIMER_PROF"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

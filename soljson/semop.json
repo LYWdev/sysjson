@@ -1,0 +1,19 @@
+{
+    "semop": {
+        "exclusive_flags": [
+            "none"
+        ],
+        "dependent_flags": {
+            "IPC_NOWAIT": "none",
+            "SEM_UNDO": "none"
+        },
+        "combinable_flags": [
+            "IPC_NOWAIT",
+            "SEM_UNDO"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

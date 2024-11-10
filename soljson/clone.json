@@ -1,0 +1,48 @@
+{
+    "clone": {
+        "exclusive_flags": [
+            ["CLONE_NEWUSER", "CLONE_FS"],
+            ["CLONE_SIGHAND", "CLONE_CLEAR_SIGHAND"],
+            ["CLONE_NEWIPC", "CLONE_SYSVSEM"],
+            ["CLONE_THREAD", "CLONE_NEWUSER"],
+            ["CLONE_FS", "CLONE_NEWNS"],
+            ["CLONE_NEWPID", "CLONE_THREAD"],
+            ["CLONE_PARENT", "CLONE_NEWUSER"]
+        ],
+        "dependent_flags": {
+            "CLONE_SIGHAND": "CLONE_VM",
+            "CLONE_THREAD": "CLONE_SIGHAND",
+            "CLONE_CHILD_SETTID": "child_tid",
+            "CLONE_PARENT_SETTID": "parent_tid",
+            "CLONE_PIDFD": "parent_tid or cl_args.pidfd"
+        },
+        "combinable_flags": [
+            "CLONE_CHILD_CLEARTID",
+            "CLONE_CHILD_SETTID",
+            "CLONE_FILES",
+            "CLONE_FS",
+            "CLONE_IO",
+            "CLONE_NEWCGROUP",
+            "CLONE_NEWIPC",
+            "CLONE_NEWNET",
+            "CLONE_NEWNS",
+            "CLONE_NEWPID",
+            "CLONE_NEWUSER",
+            "CLONE_NEWUTS",
+            "CLONE_PARENT",
+            "CLONE_PARENT_SETTID",
+            "CLONE_PIDFD",
+            "CLONE_PTRACE",
+            "CLONE_SETTLS",
+            "CLONE_SIGHAND",
+            "CLONE_THREAD",
+            "CLONE_UNTRACED",
+            "CLONE_VFORK",
+            "CLONE_VM"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

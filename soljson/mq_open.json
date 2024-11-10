@@ -1,0 +1,22 @@
+{
+    "mq_open": {
+        "exclusive_flags": [
+            "O_RDONLY",
+            "O_WRONLY",
+            "O_RDWR"
+        ],
+        "dependent_flags": {
+            "O_EXCL": "O_CREAT"
+        },
+        "combinable_flags": [
+            "O_CLOEXEC",
+            "O_CREAT",
+            "O_EXCL",
+            "O_NONBLOCK"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

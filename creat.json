@@ -1,0 +1,17 @@
+{
+    "creat": {
+        "exclusive_flags": [],
+        "dependent_flags": {
+            "O_TRUNC": "O_CREAT"
+        },
+        "combinable_flags": [
+            "O_WRONLY",
+            "O_CREAT",
+            "O_TRUNC"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+

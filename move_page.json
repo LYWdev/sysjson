@@ -1,0 +1,18 @@
+{
+    "move_pages": {
+        "exclusive_flags": [
+            "none"
+        ],
+        "dependent_flags": {
+            "MPOL_MF_MOVE_ALL": "CAP_SYS_NICE"
+        },
+        "combinable_flags": [
+            "MPOL_MF_MOVE",
+            "MPOL_MF_MOVE_ALL"
+        ],
+        "singleonly_flags": [
+            "none"
+        ]
+    }
+}
+
